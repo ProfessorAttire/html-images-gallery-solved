@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- TODO: add the path to connect the scripts.js file -->
-    <script src="" defer></script>
+    <script src="/js/scripts.js" defer></script>
 
     <!-- TODO: add relative path to connect the layout.css file -->
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="../css/layout.css" />
 
     <!-- TODO: add relative path to connect the image-detail.css file -->
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="../css/secondary/image-detail.css" />
 
     <!-- Google custom fonts connection, don't edit these lines -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -30,27 +30,32 @@
       <nav>
         <ul class="top-nav">
           <!-- TODO: add relative path to nature.html file -->
-          <li><a href="">Nature</a></li>
+          <li><a href="../pages/nature.html">Nature</a></li>
 
           <!-- TODO: add relative path to space.html file -->
-          <li><a href="">Space</a></li>
+          <li><a href="../pages/space.html">Space</a></li>
 
           <!-- TODO: add relative path to modern-design.html file -->
-          <li><a href="">Modern Design</a></li>
+          <li><a href="../pages/modern-design.html">Modern Design</a></li>
 
           <!-- TODO: add relative path to plants.html file -->
-          <li><a href="">Plants</a></li>
+          <li><a href="../pages/plants.html">Plants</a></li>
         </ul>
         <button id="nav-toggler" aria-expanded="false">&#9783;</button>
       </nav>
     </header>
     <main>
       <!-- TODO: add relative path to index.html file -->
-      <a href="" class="nav-button">&#127968;&nbsp;&nbsp; Back to Home Page</a>
+      <a href="../" class="nav-button"
+        >&#127968;&nbsp;&nbsp; Back to Home Page</a
+      >
       <h1>Modern Design</h1>
       <section class="image-details">
         <!-- TODO: add relative path to design-image.jpg file -->
-        <img src="" alt="Modern Design Image" />
+        <img
+          src="../assets/gallery-images/modern-design/design-image.jpg"
+          alt="Modern Design Image"
+        />
         <p class="image-description">
           Experience the elegance and simplicity of modern design with our
           curated collection of timeless creations. We believe in the power of
@@ -64,13 +69,21 @@
           lifestyle and discover the beauty in simplicity.
         </p>
         <!-- TODO: add absolute path to the unsplash "modern design" collection page from README.md -->
-        <a class="more-images" href="">More Modern Design Images</a>
+        <a
+          class="more-images"
+          href="https://unsplash.com/s/photos/modern-design"
+          >More Modern Design Images</a
+        >
         <div class="detail-navigation">
           <!-- TODO: add relative path to space.html file -->
-          <a href="" class="nav-button">&#8656;&nbsp;&nbsp;Prev: Space</a>
+          <a href="./space.html" class="nav-button"
+            >&#8656;&nbsp;&nbsp;Prev: Space</a
+          >
 
           <!-- TODO: add relative path to plants.html file -->
-          <a href="" class="nav-button">Next: Plants &nbsp;&nbsp;&#8658;</a>
+          <a href="./plants.html" class="nav-button"
+            >Next: Plants &nbsp;&nbsp;&#8658;</a
+          >
         </div>
       </section>
     </main>
